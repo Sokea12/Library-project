@@ -205,74 +205,52 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{url('income')}}" class="nav-link">
+                <a href="{{url('authors')}}" class="nav-link">
                   <i class="bi bi-cash-stack"></i>
-                  <p>Income</p>
+                  <p>Authors</p>
                 </a>
               </li>
                <li class="nav-item">
-                <a href="{{url('expense')}}" class="nav-link">
+                <a href="{{url('publishers')}}" class="nav-link">
                  <i class="bi bi-currency-exchange"></i>
-                  <p>Expense</p>
+                  <p>Publishers</p>
                 </a>
               </li>
                <li class="nav-item">
-                <a href="./generate/theme.html" class="nav-link">
+                <a href="{{url('categories')}}" class="nav-link">
+                  <i class="nav-icon bi bi-box-seam-fill"></i>
+                  <p>Categories</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{url('books')}}" class="nav-link">
                  <i class="bi bi-journal-text"></i>
-                  <p>Report</p>
+                  <p>Books</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-box-seam-fill"></i>
-                  <p>
-                    Categories
-                    <i class="nav-arrow bi bi-chevron-right"></i>
-                  </p>
+                <a href="{{url('students')}}" class="nav-link">
+                 <i class="bi bi-person"></i>
+                  <p>Reg Students</p>
                 </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="{{url('categories')}}" class="nav-link">
-                     <i class="nav-icon bi bi-circle"></i>
-                     <p>Category info</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="{{url('categories/create')}}" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Create category</p>
-                    </a>
-                  </li>
-                </ul>
+              </li>
+               <li class="nav-item">
+                <a href="{{url('book_issues')}}" class="nav-link">
+                 <i class="bi bi-book"></i>
+                  <p>Book Issue</p>
+                </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-box-seam-fill"></i>
-                  <p>
-                    Users
-                    <i class="nav-arrow bi bi-chevron-right"></i>
-                  </p>
+                <a href="./generate/theme.html" class="nav-link">
+                 <i class="bi bi-file-earmark-text"></i>
+                  <p>Reports</p>
                 </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="{{url('category/create')}}" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Create category</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="{{url('category')}}" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Category info</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="./widgets/cards.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Cards</p>
-                    </a>
-                  </li>
-                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="./generate/theme.html" class="nav-link">
+                 <i class="bi bi-gear"></i>
+                  <p>Settings</p>
+                </a>
               </li>
             </ul>
             <!--end::Sidebar Menu-->
